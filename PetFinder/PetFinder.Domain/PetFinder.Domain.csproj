@@ -41,12 +41,16 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Entities\Adocao.cs" />
+    <Compile Include="Entities\AdocaoInteresse.cs" />
     <Compile Include="Entities\Cidade.cs" />
+    <Compile Include="Entities\Endereco.cs" />
     <Compile Include="Entities\Estado.cs" />
     <Compile Include="Entities\Pais.cs" />
     <Compile Include="Entities\PetImagem.cs" />
     <Compile Include="Entities\Pet.cs" />
     <Compile Include="Entities\Raca.cs" />
+    <Compile Include="Entities\Usuario.cs" />
     <Compile Include="Enums\Castrado.cs" />
     <Compile Include="Enums\FormatoArquivoImagem.cs" />
     <Compile Include="Enums\Porte.cs" />

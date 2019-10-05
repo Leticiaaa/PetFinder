@@ -13,7 +13,6 @@ namespace PetFinder.Domain.Entities
         public int PetId { get; set; }
         public string Nome { get; set; }
         public string Observacao { get; set; }
-
         public int RacaId { get; set; }
         public virtual Raca Raca { get; set; }
 
